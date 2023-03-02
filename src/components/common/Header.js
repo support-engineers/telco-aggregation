@@ -206,6 +206,13 @@ function NavigationMenu({ column: vertical }) {
       >
         <Tab label='Home' value='' component={NavLink} to={ROUTE_PATHS.DEFAULT} />
         {/* [hygen] Import links */}
+        <Tab
+          label='Cali router page'
+          value='CaliRouter'
+          component={NavLink}
+          to={ROUTE_PATHS.CALI_ROUTER_PAGE}
+          className={classes.navLink}
+        />
       </Tabs>
     </Grid>
   );
